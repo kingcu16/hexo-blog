@@ -80,3 +80,17 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+algolia:
+  applicationID: $A_APPKEY
+  apiKey: $A_APIKEY
+  adminApiKey: $A_ADMINKEY
+  indexName: dev_BLOG
+  chunkSize: 5000
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+  content: true
