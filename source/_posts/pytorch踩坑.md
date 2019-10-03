@@ -12,6 +12,7 @@ tags:
 
 - GPU版本需要先配置cuda10.0，步骤如下(安装CPU版本的直接跳过)：
     - 从NIVIDIA官网下载适合本机的显卡驱动，一般最新版就行，[链接](https://www.nvidia.com/Download/index.aspx?lang=en-us)
+<!--more-->
     - 下载[CUDA Toolkit](https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal)，
     - 下载cuDNN，这个需要注册。[链接](https://developer.nvidia.com/rdp/form/cudnn-download-survey)
 
