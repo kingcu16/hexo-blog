@@ -22,9 +22,14 @@ categories:
 - nginx
     - / --> hexo静态文件
     - /api --> django restful api
+    - /githooks --> flask 微服务
 
 - supervisor
     - api --> 管理django restful api
+    - githooks --> 管理flask微服务
+
+- git hooks
+    - push事件 --> github webhooks post to /githooks/push
 
 ## Nginx
 
