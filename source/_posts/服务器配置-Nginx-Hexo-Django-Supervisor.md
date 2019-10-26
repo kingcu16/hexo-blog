@@ -41,7 +41,7 @@ location / {
     index index.html;
 }
 
-location /api {
+location /api/ {
     proxy_pass http://localhost:8000; //匹配了/api的路径则利用反向代理代理至django的地址
                                       //有两种写法 proxy_pass http://localhost:8000/; 
                                       // 第一种写法 会将 a.com/api/q -> localhost:8000/api/q
@@ -94,3 +94,33 @@ django-api changed
 ## githooks配置
 
 利用github的webhooks，实现自动化拉取仓库更新
+
+其原理为：检测到push等事件 --> 向设置的url中发送post信息
+
+首先编写更新脚本
+```
+cd /hexo/path //此处必须为绝对路径
+git fetch origin your-public-branch //也可以直接写 git fetch -a
+git reset --hard orgin/your-branch
+git pull
+```
+
+此处使用Flask配置微服务，在nginx配置路径转发：/githooks/ --> localhost:port/
+
+Flask app编写如下：
+```
+@app.route('/push', methods=['GET', 'POST'])
+def push():
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.data)
+            # run your shell file
+        except Exception as e:
+            print(e)
+```
+
+将Flask app的运行命令同样加入supervisor中进行管理
+
+之后配置github的webhooks：
+1. 在仓库的settings中找到Webhooks
+2. 添加webhoos，这里只监听push事件，url即https://your.web.com/githooks/push，将发送的消息类型改为JSON
