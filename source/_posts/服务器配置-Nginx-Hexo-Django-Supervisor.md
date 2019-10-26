@@ -52,7 +52,7 @@ location /api {
 
 使用supervisor进行项目管理，可以认为是一种守护进程
 
-编写对django项目的配置文件
+编写对django项目的运行文件
 
 ```run.sh
 #!/bin/bash
