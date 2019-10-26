@@ -7,6 +7,8 @@ tags:
 - Django
 - python
 - supervisor
+categories:
+- 服务器部署
 ---
 ## 前言
 

@@ -5,6 +5,8 @@ tags:
 - pytorch
 - 学习
 - 机器学习
+categories:
+- pytorch
 ---
 ## 安装
 
