@@ -50,6 +50,10 @@ location /api {
 }
 ```
 
+### HTTPS申请
+
+HTTPS的申请非常简单，参考[链接](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/76/)
+
 ## supervisor
 
 使用supervisor进行项目管理，可以认为是一种守护进程
@@ -86,3 +90,7 @@ django-api changed
 ```
 [root@path]$ supervisorctl status django-api
 ```
+
+## githooks配置
+
+利用github的webhooks，实现自动化拉取仓库更新
