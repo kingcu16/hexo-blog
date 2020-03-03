@@ -160,7 +160,7 @@
         </div>
       {% endif %}
 
-    <div style="width:300px;margin:0 auto; padding:20px 0;">
+<div style="width:150px;margin:0 auto; padding:20px 0;">
     <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011102003624" 
         style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
     <img src="{{ theme.beian }}" style="float:left;"/>
