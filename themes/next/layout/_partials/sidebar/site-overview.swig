@@ -6,13 +6,7 @@
   <p class="site-author-name" itemprop="name">{{ author }}</p>
   <div class="site-description" itemprop="description">{{ description }}</div>
 </div>
-<div style="width:150px;margin:0 auto; padding:20px 0;">
-    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011102003624" 
-        style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
-    <img src="{{ theme.beian }}" style="float:left;"/>
-    <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">鄂公网安备 42011102003624号</p>
-    </a>
-</div>
+
 {%- if theme.site_state %}
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
