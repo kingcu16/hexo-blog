@@ -81,11 +81,11 @@ footer:
     enable: true
     icp: 鄂ICP备19025003-1号
     # The digit in the num of gongan beian.
-    gongan_id: 鄂公网安备 42011102003624号
+    gongan_id: 42011102003624
     # The full num of gongan beian.
     gongan_num: 42011102003624
     # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
-    gongan_icon_url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011102003624
+    gongan_icon_url: /images/备案图标.png
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
