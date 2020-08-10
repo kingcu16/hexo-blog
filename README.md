@@ -1,2 +1,2 @@
 # blog
-blog address: https://kingcu16.github.io/blog
+blog address: https://w-copper.github.io/blog
