@@ -85,7 +85,7 @@ footer:
     # The full num of gongan beian.
     gongan_num: 42011102003624
     # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
-    gongan_icon_url: /blog/images/备案图标.png
+    gongan_icon_url: /images/备案图标.png
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
@@ -104,10 +104,10 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+# scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 # Dark Mode
 darkmode: false
@@ -184,8 +184,8 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/kingcu16 || github
-  E-Mail: mailto:kingcu16@163.com || envelope
+  GitHub: https://github.com/w-copper || github
+  E-Mail: mailto:kingcopper@whu.edu.cn || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -403,7 +403,7 @@ bookmark:
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
   enable: false
-  permalink: https://github.com/king16@163.com
+  permalink: https://github.com/w-copper
   title: Follow me on GitHub
 
 
@@ -757,7 +757,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
