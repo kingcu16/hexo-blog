@@ -1,3 +1,14 @@
+---
+title: Detectron2 在win10的安装经历
+date: 2020-7-21 13:55:46
+tags:
+- python
+- Detectron2
+- windows
+---
+
+<!-- more -->
+
 # Detectron2 在win10的安装经历
 
 ## 环境配置
