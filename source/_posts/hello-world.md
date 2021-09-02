@@ -13,5 +13,15 @@ date: 2021-9-1 16:25:00
 4. [购物车 - ByWave](https://bywave.art/cart.php)
 5. [心阶](https://www.xinjiecloud.org/) 邀请码：ajfy
 6. [Shuttle - 全球网络加速 (xn--nqvp6z.com)](https://xn--nqvp6z.com/)
-7. 
+7. https://glados.one/pricing
+
+### 免费
+
+
+
+### 博客
+
+https://nice456.com/index.php/category/sharing/
+
+https://www.mattkaydiary.com/search/label/vpn
 
